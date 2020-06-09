@@ -28,7 +28,7 @@ export default class EventController {
 
     setCurrentEvent(id) {
         this.eventModel.setCurrentEvent(id);
-        // this.eventModel.createEventArray('', '', id)
+        this.eventModel.createEventArray('', '', id)
     }
 
     getCurrentEvent() {
