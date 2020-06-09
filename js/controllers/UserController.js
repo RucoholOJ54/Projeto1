@@ -23,6 +23,10 @@ export default class UserController {
         }
     }
 
+    loginUserTime(username) {
+        return this.userModel.userLogged(username);
+    }
+
     logoutUser() {
         this.userModel.logout();
     }

@@ -48,6 +48,10 @@ export default class UserModel {
         sessionStorage.removeItem('loggedUser');
     }
 
+    userLogged() {
+        return sessionStorage.getItem('loggedUser')
+    }
+
     isLogged() {
         // return sessionStorage.getItem('loggedUser') === 'admin' ? true : false;
         let v = sessionStorage.getItem('loggedUser')
