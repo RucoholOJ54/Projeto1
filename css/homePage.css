@@ -1,0 +1,77 @@
+.nav-brand {
+    height: 20px;
+    padding-right: 30px;
+}
+
+.my-nav {
+  background-image: linear-gradient(#F90E0E, #B46907);
+  font-style: italic;
+  font-size: 22px;
+}
+
+img.rounded-circle {
+  top: 10px;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar-nav > li{
+padding-left:60px;
+padding-right:60px;
+}
+
+div#quickTrainning {
+  text-align: center;
+  
+}
+
+div#quickTrainning h3 {
+  color: red;
+}
+
+div#quickTrainning h4 {
+  color:white;
+}
+
+div#dailyChallenge {
+  text-align: center;
+}
+
+div#dailyChallenge h3 {
+  color: red;
+}
+  
+div#dailyChallenge h4 {
+  color:white;
+}
+
+div#feed {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#feed h4 {
+  text-align: center;
+  color: white;
+}
+
+div#feed img#imgFeed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#feed div#icons {
+  text-align: center;
+}
+
+div#feed div#comments {
+  text-align: center;
+}

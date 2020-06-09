@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Running Hub</title>
+    <link rel='icon' href='img/favicon (1).ico' type='image/x-icon'/ >
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css\\index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body style="background-color: black;">
+    <img src="img\\logotipo.png" id="logo-login" alt="..." class="rounded-0"> 
+    
+    <form id="frmLogin">
+        <div class="form-group">
+        <input type="text" class="form-control" id="txtUsername" placeholder="Utilizador" required>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="txtPassword" placeholder="Password" required>
+        </div>
+        <div id="butao">
+            <button type="submit" class="btn btn-primary ml-1" id="btnMenuLogin">Login</button>
+            <button id="btnMenuRegist" type="button" class="btn btn-primary m-2" data-toggle="modal"
+                    data-target="#mdlRegister">Register</button>
+        </div>
+    </form>
+    <div id="loginMessage"></div>
+
+     <!-- Register Modal -->
+     <div class="modal fade" id="mdlRegister" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+     aria-hidden="true">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title">Register</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                 </button>
+             </div>
+             <div class="modal-body">
+                 <form id="frmRegister">
+                     <div class="form-group">
+                         <label for="txtUsernameRegister">Username</label>
+                         <input type="text" class="form-control" id="txtUsernameRegister"
+                             placeholder="Enter username" />
+                     </div>
+                     <div class="form-group">
+                         <label for="txtPasswordRegister">Password</label>
+                         <input type="password" class="form-control" id="txtPasswordRegister"
+                             placeholder="Enter password" />
+                     </div>
+                     <div class="form-group">
+                         <label for="txtPasswordRegister2">Confirmar Password</label>
+                         <input type="password" class="form-control" id="txtPasswordRegister2"
+                             placeholder="Enter password" />
+                     </div>
+                     
+                     <div class="form-group">
+                      <label for="txtName">Nome Completo</label>
+                      <input type="text" class="form-control" id="txtName"
+                          placeholder="Nome" />
+                      </div>
+                      <div class="form-group">
+                        <label for="txtImgUser" ">Foto de Perfil</label>
+                        <input id="txtImgUser" type="url" class="form-control m-2" />
+                    </div>
+                      <div class="form-group">
+                        <label for="txtAge">Idade</label>
+                        <input type="number" class="form-control" id="txtAge"
+                            placeholder="Idade" />
+                    </div>
+                    <div class="form-group">
+                      <label for="txtLocation">Localidade</label>
+                      <input type="text" class="form-control" id="txtLocation"
+                          placeholder="Localidade" />
+                  </div>
+                  <div class="form-group">
+                    <label for="txtHeight">Altura</label>
+                    <input type="number" class="form-control" id="txtHeight"
+                        placeholder="Altura" />
+                </div>
+                <div class="form-group">
+                  <label for="runType">Tipo de Passada</label>
+                  <select id="runType">
+                    <option value="Supinada">Passada Supinada</option>
+                    <option value="Pronada">Passada Pronada</option>
+                    <option value="Neutra">Passada Neutra</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="favComp">Provas Favoritas</label>
+                <select id="favComp">
+                  <option value="Estrada">Corrida de Estrada</option>
+                  <option value="Mista">Corrida Mista</option>
+                  <option value="Trail">Corrida de Trail</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="averageKm">Media de Km</label>
+              <input type="text" class="form-control" id="averageKm"
+                  placeholder="Media Km" />
+          </div>
+          <div class="form-group">
+            <label for="shoe">Sapatilha</label>
+            <select id="shoe">
+              <option value="Nike">Nike</option>
+              <option value="Adidas">Adidas</option>
+              <option value="Asics">Asics</option>
+              <option value="Joma">Joma</option>
+              <option value="Reebok">Reebok</option>
+              <option value="Fila">Fila</option>
+              <option value="Sketchers">sketchers</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="equip">camisola</label>
+          <select id="equip">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+        </select>
+      </div>
+      
+    </div>
+                     <div class="float-right">
+                         <button type="submit" class="btn btn-primary">Submit</button>
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     </div>
+                 </form>
+             </div>
+             <div class="modal-footer">
+                 <div id="mdlRegisterMessage"></div>
+             </div>
+         </div>
+     </div>
+ </div>
+    <!-- Optional JavaScript -->
+    <script type="module" src="js/app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

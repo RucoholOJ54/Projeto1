@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.nav-brand {
+    height: 20px;
+    padding-right: 30px;
+}
+
+.my-nav {
+  background-image: linear-gradient(#F90E0E, #B46907);
+  font-style: italic;
+  font-size: 22px;
+}
+
+img.rounded-circle {
+  top: 10px;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar-nav > li{
+padding-left:60px;
+padding-right:60px;
+}
+
+thead th {
+    color: white;
+    text-align: center;
+}
+
+thead td {
+    color: white;
+    text-align: center;
+}
+
+tbody th {
+    color: white;
+    text-align: center;
+}
+
+tbody td {
+    color: white;
+    text-align: center;
+}
+
+div#classificationTable {
+    position: relative;
+    top: 50px;
+}

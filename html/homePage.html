@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Running Hub</title>
+    <link rel='icon' href='img/favicon (1).ico' type='image/x-icon'/ >
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/homePage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body style="background-color: black;">
+    <nav class="navbar fixed-top my-nav navbar-expand-lg navbar-light bg-ligth" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="../html/homePage.html">
+            <img src="..\\img\\sapatilha branca.png" width="60px" alt="" id="logo-menu">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../html/eventsCatalog.html">Provas</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../html/teamsCatalog.html">Equipa</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="../html/trophies.html">Troféus</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="../html/classification.html">Classificação</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="../html/store.html">Loja</a>
+              </li>
+              <li class="nav-item active ">
+                <img src="..\\img\\imagem-user.jpg" class="rounded-circle" width="45px">
+              </li>
+            
+            
+          </ul>
+        </div>
+        </div>
+        
+      </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+           <div class="col mt-5 " id="quickTrainning">
+              <h3>Tempo</h3><br>
+              <h4>00:00:00</h4><br>
+              <h3>Distância</h3><br>
+              <h4>00.00 KM</h4><br>
+              <h3>Velocidade</h3><br>
+              <h4>00.00 KM/H</h4><br>
+              <button id="btnTrainning" type="button" class="btn btn-danger m-2">Iniciar Treino</button>
+           </div>
+        <div class="col-6 mt-5 ">
+            <div class="container " id="feed">
+                <h4 class="align-center mt-2">User1 postou</h4>
+                <img src="../img/img-feed2.jpg" id="imgFeed" alt="..." class="rounded-0 mt-2 " width="200px">
+                <h4>38 gostos | 10 comentários</h4>
+                <div id="icons">
+                    <button id="btnLike" type="button" class="btn btn-dark mr-2"><img src="../img/icon-like.png" id="likeIcon" alt="..." class="rounded-0 mt-2" width="25px"></button>
+                    <button id="btnComment" type="button" class="btn btn-dark ml-2"><img src="../img/icon-comment.png" id="CommentIcon" alt="..." class="rounded-0 mt-2" width="25px"></button>
+                </div>
+                <div id="comments" class="mt-4 mb-2">
+                    <img src="../img/imagem-user.jpg" id="userIcon" alt="..." class="rounded-circle mr-2" width="50px">
+                    <input type="text" class="" id="txtComment" placeholder="Insira um comentário" />
+                </div>
+                
+            </div>
+            <br>
+            <br>
+            <div class="container " id="feed">
+                <h4 class="align-center">User2 postou</h4>
+                <img src="../img/img-feed.jpg" id="imgFeed" alt="..." class="rounded-0 mt-2 " width="200px">
+                <h4>20 gostos | 5 comentários</h4>
+                <div id="icons">
+                  <button id="btnLike" type="button" class="btn btn-dark mr-2"><img src="../img/icon-like.png" id="likeIcon" alt="..." class="rounded-0 mt-2" width="25px"></button>
+                  <button id="btnComment" type="button" class="btn btn-dark ml-2"><img src="../img/icon-comment.png" id="CommentIcon" alt="..." class="rounded-0 mt-2" width="25px"></button>
+              </div>
+              <div id="comments" class="mt-4 mb-2">
+                  <img src="../img/imagem-user.jpg" id="userIcon" alt="..." class="rounded-circle mr-2" width="50px">
+                  <input type="text" class="" id="txtComment" placeholder="Insira um comentário" />
+              </div>
+            </div>
+            </div>
+        <div class="col mt-5 ml-5" id="dailyChallenge">
+           
+           <h3>Desafio Diário</h3><br>
+           <h4>Percorrer 15 Km</h4><br>
+           <h4>8,55 Km de 15 Km</h4>
+           <h4>57% Completo</h4><br>
+           <h4>8 horas e 42 minutos restantes</h4>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script type="module" src="../js/app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

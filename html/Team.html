@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Running Hub</title>
+    <link rel='icon' href='img/favicon (1).ico' type='image/x-icon'/ >
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/Team.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body style="background-color: black;">
+      
+    <nav class="navbar my-nav navbar-expand-lg navbar-light bg-ligth" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="../html/homePage.html">
+            <img src="..\\img\\sapatilha branca.png" width="60px" alt="" id="logo-menu">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../html/eventsCatalog.html">Provas</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../html/teamsCatalog.html" style="color: white;">Equipa</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="../html/trophies.html">Troféus</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="../html/classification.html">Classificação</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="../html/store.html">Loja</a>
+              </li>
+              <li class="nav-item active">
+                <img src="..\\img\\imagem-user.jpg" class="rounded-circle" width="45px" >
+              </li>
+            
+            
+          </ul>
+        </div>
+        </div>
+        
+      </nav>
+
+      
+        <div class="container-nav">
+            <ul class="nav nav-pills justify-content-center mt-3" id="pageOptions">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#geralVision">Visão Geral</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#members">Membros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#events">Provas</a>
+                </li>
+            </ul>
+        </div>
+
+        <hr class="my-2 mt-3 mb-3" style="background-color: white;"/>
+
+        <div class="tab-content">
+          <div class="tab-pane active container" id="geralVision">
+            <div class="container">
+              <div class="row">
+              <div class="col mt-4">
+              <h6 style="color: white;">Emblema:</h6>
+              <img src="../img/img-lixo.png" id="imgEmblem" alt="..." class="rounded-0 mt-2" width="200px">
+              </div>
+              <div class="col-6">
+              <h1 class="display-4" id="txtTeamName" style="color: white; font-weight: bold; font-size: 60px;">Nome Da Equipa</h1>
+              <p id="txtLocation" style="color: white; font-size: 15px;">Localização: Santo Tirso</p>
+              </div>
+              <div class="col">
+              </div>
+              <img src="..." alt="..." class="rounded-0 mt-2 justify-content-start" width="150px">
+              </div>
+            </div>
+  
+            <div class="container">
+              <div class="row mt-4">
+              <div class="col mt-4">
+              <h6 style="color: white;">Equipamento:</h6>
+              <img src="../img/equipamento-lixo.png" id="imgEquip" alt="..." class="rounded-0 mt-2 justify-content-start" width="200px">
+              </div>
+              <div class="col-6 ">
+              <h1 class="display-4" id="txtDescColor" style="color: white; font-size: 60px;">Quem somos?</h1>
+              <p id="txtDesc" style="color: white; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla pharetra diam sit amet nisl. Risus at ultrices mi tempus imperdiet nulla. Neque vitae tempus quam pellentesque</p>
+              </div>
+              <div class="col">
+              </div>
+              <img src="../img/localidade-equipa.JPG" alt="..." class="rounded mt-2 justify-content-start" width="170px" height="200px">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane container" id="members">
+            <div class="container-md" id="tbl">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" id="classification">Classificação</th>
+                    <th scope="col" id="name">Nome</th>
+                    <th scope="col" id="age">Idade</th>
+                    <th scope="col" id="points">Pontuação</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1º Lugar</td>
+                  <td>Admin</td>
+                  <td>20 anos</td>
+                  <td>5000 pts</td>
+                </tr>
+                <tr>
+                  <td>2º Lugar</td>
+                  <td>user</td>
+                  <td>21 anos</td>
+                  <td>4000 pts</td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+      
+    <!-- Optional JavaScript -->
+    <script type="module" src="../js/app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
